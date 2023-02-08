@@ -1,8 +1,18 @@
-{
-	"folders": [
-		{
-			"path": "../git1"
-		}
-	],
-	"settings": {}
-}
+PS C:\Users\olymp\git1> dir
+
+
+Mode                 LastWriteTime         Length Name
+-a----        08.02.2023     16:55              0 Beatles
+
+
+PS C:\Users\olymp\git1> git init "Beatles"
+fatal: cannot mkdir Beatles: File exists
+PS C:\Users\olymp\git1> git add . "John Lennon"
+fatal: pathspec 'John Lennon' did not match any files
+PS C:\Users\olymp\git1> git commit -m
+error: switch `m' requires a value
+PS C:\Users\olymp\git1> git add . "Paul Makkartni"
+fatal: pathspec 'Paul Makkartni' did not match any files
+PS C:\Users\olymp\git1> git commit -m
+error: switch `m' requires a value
+PS C:\Users\olymp\git1> 
